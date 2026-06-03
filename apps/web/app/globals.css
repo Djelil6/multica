@@ -43,3 +43,17 @@ html[lang|="ja"] {
     "Microsoft YaHei", "Noto Sans CJK SC", "Apple SD Gothic Neo", "Malgun Gothic",
     "Noto Sans CJK KR", sans-serif;
 }
+
+/* === BUTTON HOVER ANIMATION === */
+button, .btn, [role='button'] {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+button:hover, .btn:hover, [role='button']:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+}
+
+button:active {
+  transform: translateY(0px);
+}
