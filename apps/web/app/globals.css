@@ -44,6 +44,19 @@ html[lang|="ja"] {
     "Noto Sans CJK KR", sans-serif;
 }
 
+feature/button-hover-animation-clean
+/* === BUTTON HOVER ANIMATION === */
+button, .btn, [role='button'] {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+button:hover, .btn:hover, [role='button']:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+}
+
+button:active {
+  transform: translateY(0px);
 /* === PURPLE THEME === */
 :root {
   --primary: oklch(0.491 0.27 293);
@@ -56,4 +69,5 @@ html[lang|="ja"] {
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(0.28 0.06 293);
   --sidebar-ring: oklch(0.491 0.27 293);
+main
 }
