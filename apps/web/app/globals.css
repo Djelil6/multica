@@ -43,17 +43,3 @@ html[lang|="ja"] {
     "Microsoft YaHei", "Noto Sans CJK SC", "Apple SD Gothic Neo", "Malgun Gothic",
     "Noto Sans CJK KR", sans-serif;
 }
-
-/* === PURPLE THEME === */
-:root {
-  --primary: oklch(0.491 0.27 293);
-  --primary-foreground: oklch(0.985 0 0);
-  --ring: oklch(0.491 0.27 293);
-  --sidebar: oklch(0.15 0.05 293);
-  --sidebar-primary: oklch(0.491 0.27 293);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.22 0.07 293);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.28 0.06 293);
-  --sidebar-ring: oklch(0.491 0.27 293);
-}
